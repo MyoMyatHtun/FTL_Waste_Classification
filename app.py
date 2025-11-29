@@ -11,12 +11,12 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # --- 2. Page Configuration ---
 st.set_page_config(
-    page_title="Smart Waste Classifier",
+    page_title="Waste Classification System",
     page_icon="♻️",
     layout="centered"
 )
 
-st.title("🔎 Smart Waste Analyzer")
+st.title("🔎 Waste Classification System")
 st.write("Upload a single image to detect **Recyclability** AND **Material Type** simultaneously.")
 
 # --- 3. Model Loading Functions ---
