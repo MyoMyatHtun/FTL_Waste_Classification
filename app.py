@@ -191,14 +191,14 @@ if file is not None:
     st.markdown("---")
     
     # --- Quality Flags (New Feature 4) ---
-    if quality_flags:
-        st.subheader("🚨 Input Quality Review")
-        for flag in quality_flags:
-            st.code(flag)
-    else:
-        st.success("✅ Input Image Quality is high.")
+    # if quality_flags:
+    #     st.subheader("🚨 Input Quality Review")
+    #     for flag in quality_flags:
+    #         st.code(flag)
+    # else:
+    #     st.success("✅ Input Image Quality is high.")
         
-    st.markdown("---")
+    # st.markdown("---")
 
     # --- Details Expander (Original + New Feature 3 Placeholder) ---
     with st.expander("📊 Full Technical Breakdown & Confusion Summary"):
