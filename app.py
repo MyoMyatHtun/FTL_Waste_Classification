@@ -208,7 +208,6 @@ if file is not None:
         st.write("""
         * **Plastic** is commonly confused with **Paper** (if crumpled and white).
         * **Metal** is sometimes confused with **Glass** (due to reflections/shine).
-        * **Organic** can be misclassified as **Non-Recycle** due to contamination features.
          * **Plastic** is sometimes confused with **Glass** (transparent or glossy plastics).
         """)
         
