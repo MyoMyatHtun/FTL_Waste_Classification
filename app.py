@@ -68,7 +68,6 @@ def get_sorting_instructions(material_type, is_recyclable):
         ('Plastic', 'Recycle'): "✅ **RECYCLE:** Rinse the container (remove food residue). Look for a recycling symbol 1, 2, or 5. If it's film/bag, check local rules.",
         ('Plastic', 'Non-Recycle'): "🗑️ **DISPOSE:** This plastic is likely single-use, non-identifiable, or too dirty. Place in general waste.",
         ('Glass', 'Recycle'): "✅ **RECYCLE:** Rinse bottles/jars (remove caps). Do NOT include broken glass or window glass.",
-        ('Glass', 'Non-Recycle'): "⚠️ **HAZARDOUS/DISPOSE:** This might be ceramic, light bulbs, or a complex glass item. Check local rules for disposal.",
         ('Metal', 'Recycle'): "✅ **RECYCLE:** Rinse cans/tins (remove residue). Flatten if possible. Ensure no sharp edges.",
         ('Metal', 'Non-Recycle'): "🗑️ **DISPOSE:** Small metal objects or mixed material items (e.g., batteries - which should be treated as Hazardous Waste separately).",
         ('Organic', 'Recycle'): "♻️ **COMPOST:** Place food scraps, yard waste, or compostable materials into a dedicated compost bin.",
